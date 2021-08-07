@@ -72,7 +72,7 @@ We should install the tensorflow after cloning it following specified cells.
 *approved_installation* The cell which begins with this variable can be run in 
 order to make sure that installation went well.
 
-**WHY THERE ARE SEVERAL CELLS UNDER THE approved_installation CELL**
+**WHY THERE ARE SEVERAL CELLS UNDER THE approved_installation CELL**                                                  
 Each time that user runs the approved_installation cell, it may return an error
 saying that some module is not installed. These several cells following approved_installation 
 instructions to install all the needed packages properly.
