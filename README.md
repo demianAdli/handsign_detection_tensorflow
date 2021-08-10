@@ -11,8 +11,7 @@ is for the second implementation and tuning.
 If you run it for the first time, you should follow the comments precisely. Sometimes a package 
 needs couple of installs in order to be fully installed on the environment.  
 I didn't use a GPU to train my network. If you want to do that you should also download and utilize 
-a cuDNN and CUDA library compatible with the downloaded TensorFlow. In the package's website, 
-you can find the compatible versions' names.
+a cuDNN and CUDA library compatible with the downloaded TensorFlow. You can find the compatible versions' names, in the TensorFlow's website.
 
 
 ## Using the labeling Data Tool
@@ -88,6 +87,6 @@ Right after installing the TensorFlow and the importing of *object detection*, t
 which downloads a pretrained model as our underlying model to develop upon. The cell is fully 
 commented out (including the executable commands) because I could not open the official link. 
 For whom with the same issue, I will upload the ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8
-model in a different repository on my github. So users can download directly or clone it in your code.
+model in a different repository on my github. So users can download directly or clone it in their code.
 
 *https://github.com/demianAdli/object_detection_pretrained_model*
